@@ -53,6 +53,7 @@ aside, article {
 }
 aside {
     text-align: center;
+    
 }
 article{
     width: 75%; /*cuando llegue a 75% del ancho de pántalla, el texto sigue una linea abajo*/
@@ -66,4 +67,63 @@ article{
     aside{
         margin-left: 2%;
     }
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: blanchedalmond;
+}
+.subtitle {
+    background-color: chartreuse;
+    font-size: 0.8em;
+    padding: 3px;
+    border: solid 5px red;
+    margin-top: 0.3em;
+}
+p {
+    color: red;
+}
+
+/*catalogo */
+
+.element {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: silver;
+    border: solid 3px brown;
+}
+.toy{
+    max-width: 100%;
+    max-height: 75%;
+}
+.element-information{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0.3em;
+}
+.element-information .title { 
+    /*hace ref solo al title que esta dentro de element-information*/
+    font-weight: bold;
+}
+.element-information .price { 
+    /*hace ref solo al price que esta dentro de element-information*/
+    text-align: right;
+}
+.element button{
+    background-color: goldenrod;
+    padding: 10px;
+    border: solid 1px greenyellow;
+    border-radius: 6px;
+    margin-top: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
