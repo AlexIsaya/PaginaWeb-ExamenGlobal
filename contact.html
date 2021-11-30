@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen página web de Alexis</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        #actual{
+        background-color: #ddd;
+        color: black;
+        padding: 5px;
+        font-family: 'Comic Neue', cursive;
+        font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,18 +22,29 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="catalog.html">Catálogo</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a id="actual" href="contact.html">Contáctenos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <aside><img src="images/logo.jpg" class="logo" alt="logo"></aside>
+        <aside><img src="images/logo3.png" class="logo3" alt="logo3" width="280px"></aside>
         <article>
             <h1>Contáctenos</h1>
-            <p>Estamos disponibles para ayudarte, escribanos a 
-                <a href="mailto:alexisaya96@gmail.com?subject-contactsuport"> nuestro mail</a>
-
-            </p>
+            <p class="send-mail">Estamos disponibles para ayudarte, escribanos a <a href="mailto:alexisaya96@gmail.com?subject=contactsupport">nuestro mail</a></p><br>
+            <!--<img src="images/banner2.jpg" width="800px">-->
+            <iframe src="https://giphy.com/embed/loAnHAy04UviE" width="700" height="450" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <div class="redes">
+                <br>
+                <p> Nuestras redes sociales: </p>
+                <br>
+                <nav>
+                    <ul>
+                        <li><a href="https://wa.link/hwullr" target="_blank"><img src="images/icono-wsp.png" alt="Icono Wsp"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="images/icono-fb.png" alt="Icono Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="images/icono-ig.png" alt="Icono Instagram"></a></li>
+                    </ul>
+                </nav>                
+            </div>       
         </article>
     </main>
     <footer>
@@ -32,9 +52,12 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="catalog.html">Catálogo</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a id="actual" href="contact.html">Contáctenos</a></li>
             </ul>
         </nav>
+        <div class="foot-descr">
+            <p>X-men Collections 2021 - Hecho por Alexis Isaya</p>
+        </div>
     </footer>
 </body>
 </html>

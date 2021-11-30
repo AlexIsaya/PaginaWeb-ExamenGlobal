@@ -6,55 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen página web de Alexis</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        #actual{
+            background-color: #ddd;
+            color: black;
+            padding: 5px;
+            font-family: 'Comic Neue', cursive;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="catalog.html">Catálogo</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a id="actual" href="catalog.html">Catálogo</a></li>
+                <li><a href="contact.html">Contáctenos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <aside><img src="images/logo.jpg" class="logo" alt="logo"></aside>
+        <aside><img src="images/logo3.png" class="logo3" alt="logo3" width="280px"></aside>
         <article>
             <h1>Catálogo</h1>
             <section class="columns-desktop">
                 <div class="element">
-                    <img class="toy" src="images/wolverine.jpg" alt="wolverine">
+                    <img class="toy" src="images/wolverine2.jpg" alt="wolverine">
                     <div class="element-information">
-                        <div class="title">
-                            Wolverine
-                        </div>
-                        <div class="price">
-                            $1400
-                        </div>
+                        <div class="title">Wolverine</div>
+                        <div class="price">$1600</div>
                     </div>
-                    <p>
-                        Garras de verdad afiladas
-                    </p>
-                    <button data-order="wolverine">
-                        Comprar
-                    </button>
+                    <p>Garras de verdad afiladas</p>
+                    <button data-order="wolverine">Comprar</button>
                 </div>
                 <div class="element">
-                    <img class="toy" src="images/ciclops.jpg" alt="wolverine">
+                    <img class="toy" src="images/beast.jpg" alt="beast">
                     <div class="element-information">
-                        <div class="title">
-                            Ciclops
-                        </div>
-                        <div class="price">
-                            $1300
-                        </div>
+                        <div class="title">Beast</div>
+                        <div class="price">$1400</div>
                     </div>
-                    <p>
-                        Cuidado con las gafas!
-                    </p>
-                    <button data-order="ciclops">
-                        Comprar
-                    </button>
+                    <p>No lo hagas enojar!</p>
+                    <button data-order="beast">Comprar</button>
+                </div>
+                <div class="element">
+                    <img class="toy" src="images/Blink.jpg" alt="Blink">
+                    <div class="element-information">
+                        <div class="title">Blink</div>
+                        <div class="price">$1300</div>
+                    </div>
+                    <p>No la pierdas de vista!</p>
+                    <button data-order="Blink">Comprar</button>
+                </div>
+                <div class="element">
+                    <img class="toy" src="images/mystique.jpg" alt="mystique">
+                    <div class="element-information">
+                        <div class="title">Mystique</div>
+                        <div class="price">$1500</div>
+                    </div>
+                    <p>Cuidado, te puede imitar!</p>
+                    <button data-order="mystique">Comprar</button>
+                </div>
+                <div class="element">
+                    <img class="toy" src="images/gambit.jpg" alt="gambit">
+                    <div class="element-information">
+                        <div class="title">Gambit</div>
+                        <div class="price">$1300</div>
+                    </div>
+                    <p>Siempre tiene un as bajo la manga</p>
+                    <button data-order="gambit">Comprar</button>
+                </div>
+                 
+                <div class="element">
+                    <img class="toy" src="images/jubilee.jpg" alt="jubilee">
+                    <div class="element-information">
+                        <div class="title">Jubilee</div>
+                        <div class="price">$1300</div>
+                    </div>
+                    <p>No juegues con sus sentimientos!</p>
+                    <button data-order="jubilee">Comprar</button>
+                </div>
+                <div class="element">
+                    <img class="toy" src="images/skullbuster.jpg" alt="skullbuster">
+                    <div class="element-information">
+                        <div class="title">Skullbuster</div>
+                        <div class="price">$1500</div>
+                    </div>
+                    <p>No lo juntes con los X-men!</p>
+                    <button data-order="skullbuster">Comprar</button>
+                </div>
+                <div class="element">
+                    <img class="toy" src="images/Guardian-Alpha.jpg" alt="Guardian-Alpha">
+                    <div class="element-information">
+                        <div class="title">Guardian Alpha</div>
+                        <div class="price">$1500</div>
+                    </div>
+                    <p>Líder del Escuadrón Alpha</p>
+                    <button data-order="Guardian-Alpha">Comprar</button>
+                </div>
+                
+                <div class="element">
+                    <img class="toy" src="images/ciclops.jpg" alt="ciclops">
+                    <div class="element-information">
+                        <div class="title">Ciclops</div>
+                        <div class="price">$1300</div>
+                    </div>
+                    <p>Cuidado con las gafas!</p>
+                    <button data-order="ciclops">Comprar</button>
                 </div>
             </section>
         </article>
@@ -63,10 +121,13 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="catalog.html">Catálogo</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a id="actual" href="catalog.html">Catálogo</a></li>
+                <li><a href="contact.html">Contáctenos</a></li>
             </ul>
         </nav>
+        <div class="foot-descr">
+            <p>X-men Collections 2021 - Hecho por Alexis Isaya</p>
+        </div>
     </footer>
 </body>
 <script src="catalog.js"></script>
